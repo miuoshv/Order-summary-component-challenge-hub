@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(225, 100%, 94%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Red Hat Display', sans-serif;
+  height: 100vh;
+}
+
+#container {
+  background-color: white;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 1rem;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+
+#top-text {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+#middle-text {
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+}
+
+#price-box {
+  max-width: 330px;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+#price-box > div {
+  text-align: center;
+}
