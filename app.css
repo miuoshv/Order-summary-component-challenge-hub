@@ -33,6 +33,7 @@ body {
 #top-text {
   font-weight: 900;
   font-size: 1.5rem;
+  color: hsl(223, 47%, 23%);
 }
 
 #middle-text {
@@ -55,6 +56,7 @@ body {
   display: flex;
   justify-content:space-between;
   align-items: center;
+  color: hsl(224, 23%, 55%);
 }
 
 @media (max-width: 325px) {
@@ -73,6 +75,8 @@ body {
 
 #price-box div:first-of-type::first-line{
   font-weight: 700;
+  color: hsl(223, 47%, 23%);
+
 }
 
 #price-box div a {
