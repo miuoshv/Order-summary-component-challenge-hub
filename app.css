@@ -48,7 +48,13 @@ body {
   display: flex;
   align-items: center;
   gap: 2rem;
-  padding: .8rem .7rem;
+  padding: .8rem .9rem;
+}
+
+#image-text {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
 }
 
 @media (max-width: 325px) {
@@ -73,7 +79,6 @@ body {
   font-size: 0.9rem;
   font-weight: 700;
   color: hsl(245, 75%, 52%);
-  padding-right: -1rem;
 }
 
 #proceed-butt, 
